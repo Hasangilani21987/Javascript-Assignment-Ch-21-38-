@@ -391,7 +391,25 @@
 //                                                     Q # 6
 
 
+// var d = new Date();
+// document.write("Current Date: " + d + "<br>")
+// var millisec = d.getTime()
+// document.write("Elasped Milliseconds since Janurary 1 , 1970: " + millisec + "<br>")
+// var minutes = millisec/(1000 * 60).toFixed()
+// document.write("Elasped Milliseconds since Janurary 1 , 1970: " + minutes + "<br>")
 
+
+
+//                                                     Q # 7
+
+
+var d = new Date();
+var hours = d.getHours()
+if (hours>=0 && hours<=12) {
+    alert('Its AM')
+} else {
+    alert('Its PM')
+}
 
 
 
