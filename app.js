@@ -403,13 +403,61 @@
 //                                                     Q # 7
 
 
-var d = new Date();
-var hours = d.getHours()
-if (hours>=0 && hours<=12) {
-    alert('Its AM')
-} else {
-    alert('Its PM')
-}
+// var d = new Date();
+// var hours = d.getHours()
+// if (hours>=0 && hours<=12) {
+//     alert('Its AM')
+// } else {
+//     alert('Its PM')
+// }
+
+
+
+//                                                     Q # 8
+
+
+// var d = new Date('May 31, 2020')
+// document.write(d)
+
+
+
+//                                                     Q # 9
+
+
+
+// var thisramzan = new Date("April 25, 2020")
+// var istramzan = new Date("June 18, 2015")
+
+// var millisec = thisramzan.getTime()
+// var Milliseconds = istramzan.getTime()
+
+// var msdiff = millisec - Milliseconds;
+
+// var ddiff = msdiff / (1000 * 60 * 60 * 24)
+
+// ddiff = Math.floor(ddiff);
+
+// document.write(ddiff + " days have passed since Ist Ramzan, 2015")
+
+
+
+//                                                     Q # 10
+
+
+// var date = new Date()
+// document.write("On Reference Date " + date + "<br>")
+// var bdate = new Date("January 1, 2015")
+
+// var millisec = date.getTime()
+// var Milliseconds = bdate.getTime()
+
+// var msdiff = millisec - Milliseconds;
+
+// var sdiff = (msdiff/ (1000)).toFixed(2)
+
+// document.write(sdiff + " seconds had passed since the beginning of 2015")
+
+
 
 
 
