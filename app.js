@@ -459,6 +459,59 @@
 
 
 
+//                                                     Q # 11
+
+
+// var date = new Date()
+// var hdate = new Date()
+// hdate.setHours(hdate.getHours()- 1)
+// document.write("current date: " + date + "<br>")
+// document.write("an hour ago, it was " + hdate)
+
+
+
+//                                                     Q # 12
+
+
+// var date = new Date()
+// var hdate = new Date()
+// document.write("current date: " + date + "<br>")
+// hdate.setFullYear(hdate.getFullYear() - 100)
+// document.write("100 years ago, it was " + hdate)
+
+
+//                                                     Q # 13
+
+
+
+// var age  = +prompt("Enter your age")
+// var date = new Date()
+// document.write("Your age is " + age + "<br>")
+// var year = (date.getFullYear()-age)
+// document.write("Your birth year is " + year + "<br>")
+
+
+//                                                     Q # 14
+
+// var Month = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+// var name  =  "Syed Ali Hassan Gilani"
+// var date = new Date()
+// var month = date.getMonth()
+// var monthformat = Month[month]
+// var numberofunits = 320
+// var chargesperunit = 16
+// var netamount = numberofunits * chargesperunit
+// var latecharges = 350
+// var grassamount = netamount + latecharges
+
+// document.write("<h1>K-Electric Bill</h1>")
+// document.write("Customer Name: " + name + "<br>")
+// document.write("Month: " + monthformat + "<br>")
+// document.write("Number of Units: " + numberofunits + "<br>")
+// document.write("Charges per unit: " + chargesperunit + "<br>")
+// document.write("Net Amount Payable (within Due Date): " + netamount + "<br>")
+// document.write("Late Payment charge: " + latecharges + "<br>")
+// document.write("Gross Amount Payable (after due date): " + grassamount + "<br>")
 
 
 //                                               Chapter # 35-38
